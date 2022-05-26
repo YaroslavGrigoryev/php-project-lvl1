@@ -1,0 +1,23 @@
+{
+    "name": "hexlet/code",
+    "description": "php-project-lvl1",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yaroslav Grigoryev",
+            "email": "yaroslavgrigoryev22@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ],
+    "license": [
+            "LGPL-2.1-only",
+            "GPL-3.0-or-later"
+    ]
+}
