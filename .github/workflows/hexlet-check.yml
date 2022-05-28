@@ -26,6 +26,9 @@ jobs:
         with:
           hexlet-id: ${{ secrets.HEXLET_ID }}
 
+      - name: Composer install
+        run: make install
+
       - name: Say, "hello"!
         run: make say-hello
 
