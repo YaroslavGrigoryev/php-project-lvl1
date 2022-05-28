@@ -6,3 +6,5 @@ lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src bin
 brain-games:
 	./bin/brain-games
+say-hello:
+	echo "Hello, World!"
