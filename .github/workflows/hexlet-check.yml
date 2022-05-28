@@ -26,3 +26,4 @@ jobs:
         with:
           hexlet-id: ${{ secrets.HEXLET_ID }}
       - run: make say-hello
+      - run: make lint
